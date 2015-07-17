@@ -12,6 +12,10 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
+                <field>Stock_Number__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
                 <field>Price__c</field>
             </layoutItems>
             <layoutItems>
@@ -21,10 +25,6 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Description__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Stock_Number__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>

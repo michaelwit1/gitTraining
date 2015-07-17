@@ -99,7 +99,7 @@
         <description>Merchandise Inventory Identifier</description>
         <externalId>false</externalId>
         <label>Stock Number</label>
-        <precision>18</precision>
+        <precision>10</precision>
         <required>false</required>
         <scale>0</scale>
         <trackFeedHistory>false</trackFeedHistory>
