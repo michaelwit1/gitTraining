@@ -1,0 +1,12 @@
+<apex:component controller="copado.CheckFeaturesController" >
+
+	<script type="text/javascript">
+		try{
+			var _ns = '{!namespace}';
+			var core = _ns ? window[_ns.split('__')[0]] : window;
+			(core).CheckFeaturesController.checkFeatures(function(){console.log('features checked')});
+		}catch(e){
+			console.log('mute remote checkFeatures error:',e);
+		}
+	</script>
+</apex:component>
