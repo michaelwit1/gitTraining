@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <customSettingsType>Hierarchy</customSettingsType>
-    <customSettingsVisibility>Public</customSettingsVisibility>
     <description>This object stores the personal settings for Copado</description>
     <enableFeeds>false</enableFeeds>
     <fields>
@@ -68,4 +67,5 @@
         <unique>false</unique>
     </fields>
     <label>Personal Settings</label>
+    <visibility>Public</visibility>
 </CustomObject>
